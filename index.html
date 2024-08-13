@@ -24,29 +24,29 @@
                     <div class="form-fields name">
                         <div class="first-name">
                             <label for="first-name">FIRST NAME</label><br>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required placeholder="">
                         </div>
                         <div class="last-name">
                             <label for="last-name">LAST NAME</label><br>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required placeholder="">
                         </div>
                     </div>
 
                     <div class="form-fields contact">
                         <div class="email">
                             <label for="email">EMAIL</label><br>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" placeholder="" required>
                         </div>
                        <div class="phone">
                             <label for="phone">PHONE NUMBER</label><br>
-                            <input type="tel" name="phone" id="phone" pattern="[0-9]+">
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]+" placeholder="" title="phone number should only contain numbers">
                        </div>
                     </div>
                        
                     <div class="form-fields pass">
                         <div class="password">
                             <label for="password">PASSWORD</label><br>
-                            <input type="password" name="password" id="password" minlength="8" title="length should be more than 8 digits">
+                            <input type="password" name="password" id="password" minlength="8" title="length should be more than 8 digits" placeholder="" required>
                         </div>
                        <div class="conf-pass">
                         <label for="conf-pass">CONFIRM PASSWORD</label><br>
