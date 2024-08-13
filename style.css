@@ -21,4 +21,20 @@ body{
 .right{
     flex: 1 1 60%;
     background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+}
+
+.right .top-text{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 80px;
+}
+
+.top-text p{
+    padding: 20px;
+}
+
+.right form-container{
+    background-color: white;
 }
