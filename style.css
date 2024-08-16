@@ -1,3 +1,9 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +19,26 @@
     flex: 1 1 30%;
     background-image: url(./images/background-green-leaf.jpg);
     background-size: cover;
+}
+
+.odin{
+    position: relative;
+    top:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000068;
+    padding: 20px;
+}
+
+.odin-logo{
+    height: 130px;
+}
+
+.odin-text{
+    font-family: norse-bold, Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
 }
 
 .right{
