@@ -16,6 +16,7 @@
 }
 
 .left{
+    position: relative;
     flex: 1 1 30%;
     background-image: url(./images/background-green-leaf.jpg);
     background-size: cover;
@@ -38,6 +39,19 @@
 .odin-text{
     font-family: norse-bold, Arial, Helvetica, sans-serif;
     font-size: 100px;
+    color: white;
+}
+
+
+.image-credit{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image-credit a{
     color: white;
 }
 
