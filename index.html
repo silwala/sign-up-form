@@ -19,7 +19,7 @@
 
             <div class="form-container">
                 <h2>Let's do this!</h2>
-                <form action="#" method="post" id="sign-up-form">
+                <form action="" method="post" id="sign-up-form">
 
                     <div class="form-fields name">
                         <div class="first-name">
@@ -50,7 +50,7 @@
                         </div>
                        <div class="conf-pass">
                         <label for="conf-pass">CONFIRM PASSWORD</label><br>
-                        <input type="password" name="conf-pass" id="conf-pass">
+                        <input type="password" name="conf-pass" minlength="8" id="conf-pass" placeholder="" required>
                        </div>
                     </div>
                     
@@ -58,7 +58,8 @@
             </div>
 
             <div class="button-container">
-                <button form="sign-up-form">submit</button>
+                <button form="sign-up-form" class="create-account">Create Account</button>
+                <p class="login-text">Already have an account? <a href="#" class="login">Log in</a></p>
             </div>
         </div>
     </div>
