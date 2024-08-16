@@ -4,12 +4,8 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-body{
-    height: 100vh;
-}
 
 .container{
-    height: 100%;
     display: flex;
 }
 
@@ -85,6 +81,7 @@ label::after{
 
 .button-container{
     padding: 40px 100px;
+    padding-bottom: 189px
 }
 
 .create-account{
